@@ -25,6 +25,10 @@ html {
   overflow-x: hidden;
 }
 
+.center {
+  text-align: center;
+}
+
 /* 
   -- html for mobile size
 @media screen and (max-width: 640px) {
