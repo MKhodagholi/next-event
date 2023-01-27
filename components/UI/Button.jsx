@@ -7,7 +7,7 @@ export default function Button({
 }) {
   return (
     <button
-      className={`p-2 rounded-md bg-teal-500 text-white ${className}`}
+      className={`flex p-2 rounded-md bg-teal-500 text-white ${className} [&>*]:w-full`}
       onClick={onClick}
       disabled={disabled}
       {...props}
