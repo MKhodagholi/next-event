@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,6 +21,7 @@ img {
 
 html {
   font-size: 12px;
+  font-family: "Quicksand";
   overflow-x: hidden;
 }
 
