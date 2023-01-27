@@ -4,7 +4,7 @@ export default function Layout({ children }) {
   return (
     <div className="min-h-screen bg-cyan-100 pb-4">
       <Nav />
-      <main className="flex flex-col justify-center items-center mx-auto w-[80%] sm:w-[%75] md:w-[70%] lg:w-[60%] xl:w-[50%]">
+      <main className="flex flex-col justify-center items-center">
         {children}
       </main>
     </div>

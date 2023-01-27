@@ -3,14 +3,11 @@ import EventList from "../components/Event/EventList";
 
 import { DUMMY_EVENTS } from "../data/dummy-events";
 
-import gamingEvent from "../public/images/gaming-event.jpeg";
-import programmingEvent from "../public/images/programming-event.jpeg";
-
 function App() {
   return (
-    <Layout>
+    <div className="w-[80%] md:w-[60%]">
       <EventList events={DUMMY_EVENTS} />
-    </Layout>
+    </div>
   );
 }
 
