@@ -2,9 +2,11 @@ import Nav from "./Nav";
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="min-h-screen bg-cyan-100 pb-4">
       <Nav />
-      {children}
+      <main className="flex justify-center w-full mt-20 mx-auto">
+        {children}
+      </main>
     </div>
   );
 }
