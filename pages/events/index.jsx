@@ -39,7 +39,7 @@ export default function EventsPage() {
 
   return (
     <Layout>
-      <div className="flex justify-between items-center px-4 py-2 mb-20 rounded-md border-2 border-black-900 shadow-md ">
+      <div className="flex justify-between items-center px-4 py-2 my-20 rounded-md border-2 border-black-900 shadow-md ">
         <div>
           <label htmlFor="" className="mr-4">
             Year:
